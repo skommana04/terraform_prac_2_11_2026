@@ -13,5 +13,4 @@ variable ami {
 variable instance_type {
     type= string
 }
- variable project {}
- variable component{}
+variable component{}
