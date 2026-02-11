@@ -1,3 +1,3 @@
 locals {
-    vpc_name = var.project
+  vpc_name = var.project
 }
