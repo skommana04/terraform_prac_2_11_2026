@@ -7,3 +7,11 @@ variable "region" {
 variable "project" {
   type = string
 }
+variable ami {
+    type= string
+}
+variable instance_type {
+    type= string
+}
+ variable project {}
+ variable component{}

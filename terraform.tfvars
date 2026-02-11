@@ -1,3 +1,6 @@
 region  = "us-east-1"
 cidr    = "10.0.0.0/16"
 project = "roboshop"
+ami = "ami-0220d79f3f480ecf5"
+instance_type = "t3.micro"
+component = "catalogue"
