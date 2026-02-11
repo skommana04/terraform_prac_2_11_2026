@@ -3,8 +3,8 @@ module "vpc" {
     cidr  = var.cidr 
     region= var.region
 
-    tags = {
-        Name = "${local.vpc_name}-vpc"
-  }
+#     tags = {
+#         #Name = "${local.vpc_name}-vpc"
+#   }
 
 }
