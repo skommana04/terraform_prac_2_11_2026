@@ -1,8 +1,10 @@
 module "vpc" {
     source = "./modules/vpc"
-    cidr_block   = var.cidr 
+    cidr  = var.cidr 
+    region= var.region
+
     tags = {
-        Name = "${local.vpc_name}-vpc" # roboshop-vpc
+        Name = "${local.vpc_name}-vpc"
   }
 
 }
