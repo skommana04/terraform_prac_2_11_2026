@@ -3,6 +3,6 @@ resource "aws_vpc" "main" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "${local.vpc_name}-vpc" # roboshop-vpc
+    Name = "${var.project}-vpc" # roboshop-vpc
   }
 }
